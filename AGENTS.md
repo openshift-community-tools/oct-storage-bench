@@ -9,8 +9,8 @@ This repository is the **Storage Bench** ConsolePlugin: a storage benchmarking t
 | | Value |
 | --- | --- |
 | Plugin ID / ConsolePlugin / `package.json` `consolePlugin.name` | **`oct-storage-bench`** |
-| Image (plugin) | `quay.io/cjanisze/oct-storage-bench:0.1.1-ocp4.22` (`<semver>-ocp<major.minor>`) |
-| Image (sidecar) | `quay.io/cjanisze/oct-storage-bench-runner:0.1.1-ocp4.22` |
+| Image (plugin) | `quay.io/openshift-community-tools/oct-storage-bench:0.1.1-ocp4.22` (`<semver>-ocp<major.minor>`) |
+| Image (sidecar) | `quay.io/openshift-community-tools/oct-storage-bench-runner:0.1.1-ocp4.22` |
 | i18n | `plugin__oct-storage-bench` |
 | Proxy | `/api/proxy/plugin/oct-storage-bench/benchmark-runner` |
 | CSS prefix | `sb-` |
@@ -145,7 +145,7 @@ The deploy bundle (`catalog/deploy/oct-storage-bench.yaml` in the storefront) re
 
 | Image | Current version | Quay repo |
 | --- | --- | --- |
-| `oct-storage-bench-runner` | **0.1.2** | `quay.io/cjanisze/oct-storage-bench-runner` |
+| `oct-storage-bench-runner` | **0.1.2** | `quay.io/openshift-community-tools/oct-storage-bench-runner` |
 
 The runner version should match the plugin version. After rebuilding either image, update the deploy YAML in the storefront, rebuild the storefront image, and run `scripts/validate-catalog.sh`. See `oct-release-checklist.mdc`.
 

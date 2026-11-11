@@ -47,7 +47,7 @@ oc set image deploy/oct-storage-bench -n oct-storage-bench plugin=quay.io/<you>/
 
 ```bash
 for f in namespace rbac service deployment consoleplugin; do
-  sed 's|quay.io/cjanisze/oct-storage-bench:[^ ]*|quay.io/<you>/oct-storage-bench:dev|' deploy/$f.yaml | oc apply -f -
+  sed 's|quay.io/openshift-community-tools/oct-storage-bench:[^ ]*|quay.io/<you>/oct-storage-bench:dev|' deploy/$f.yaml | oc apply -f -
 done
 ```
 

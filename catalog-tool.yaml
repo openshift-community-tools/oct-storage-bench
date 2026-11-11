@@ -18,11 +18,11 @@ spec:
     - version: "0.1.1"
       channel: stable
       openshift: ["4.21"]
-      image: quay.io/cjanisze/oct-storage-bench:0.1.1-ocp4.21
+      image: quay.io/openshift-community-tools/oct-storage-bench:0.1.1-ocp4.21
       gitRef: v0.1.1
     - version: "0.1.1"
       channel: stable
       openshift: ["4.22"]
-      image: quay.io/cjanisze/oct-storage-bench:0.1.1-ocp4.22
+      image: quay.io/openshift-community-tools/oct-storage-bench:0.1.1-ocp4.22
       gitRef: v0.1.1
   minOpenShift: "4.21"

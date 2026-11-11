@@ -56,10 +56,10 @@ A storage benchmarking tool for the OpenShift Console. Benchmark storage perform
 Image tags follow the `<semver>-ocp<major.minor>` convention:
 
 ```
-quay.io/cjanisze/oct-storage-bench:0.1.1-ocp4.22
-quay.io/cjanisze/oct-storage-bench:0.1.1-ocp4.21
-quay.io/cjanisze/oct-storage-bench-runner:0.1.1-ocp4.22
-quay.io/cjanisze/oct-storage-bench-runner:0.1.1-ocp4.21
+quay.io/openshift-community-tools/oct-storage-bench:0.1.1-ocp4.22
+quay.io/openshift-community-tools/oct-storage-bench:0.1.1-ocp4.21
+quay.io/openshift-community-tools/oct-storage-bench-runner:0.1.1-ocp4.22
+quay.io/openshift-community-tools/oct-storage-bench-runner:0.1.1-ocp4.21
 ```
 
 ## Quick start
